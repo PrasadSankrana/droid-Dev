@@ -1,3 +1,5 @@
 <resources>
     <string name="app_name">FirstProject</string>
+    <string name="alarm_notification_dismiss">Dismiss</string>
+    <string name="alarm_notification_snooze">Snooze</string>
 </resources>

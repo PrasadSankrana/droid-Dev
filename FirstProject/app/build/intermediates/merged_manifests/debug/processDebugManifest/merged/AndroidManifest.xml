@@ -32,6 +32,11 @@
             android:name="com.example.android.firstproject.AlarmReciever"
             android:enabled="true"
             android:exported="true" />
+
+        <service
+            android:name="com.example.android.firstproject.NotificationIntentService"
+            android:enabled="true"
+            android:exported="true" />
     </application>
 
 </manifest>

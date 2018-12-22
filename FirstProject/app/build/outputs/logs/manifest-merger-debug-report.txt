@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
 MERGED from [com.android.support:design:28.0.0] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4d0293499b065c95798300da1a380e52\AndroidManifest.xml:17:1-24:12
 MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\appcompat-v7-28.0.0.aar\a6813a739c029a77f22481683e957511\AndroidManifest.xml:17:1-22:12
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\82f31f8bcbea63dddc4f0f9165e21186\AndroidManifest.xml:2:1-11:12
@@ -35,25 +35,25 @@ MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Jarvis\.gradle\ca
 MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\livedata-1.1.1.aar\13e16224c392845ec44345872630e36c\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\livedata-core-1.1.1.aar\2634c1e594fc41929e3e2d696d45ff7d\AndroidManifest.xml:17:1-22:12
 MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\runtime-1.1.1.aar\7979faf263a7174f7cde16c95754a7dd\AndroidManifest.xml:17:1-22:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
-INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
+INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
 	package
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:3:5-47
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-27:12
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:1-31:12
 		INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:2:11-69
 application
-ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:5:5-25:19
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:5:5-29:19
 MERGED from [com.android.support:design:28.0.0] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4d0293499b065c95798300da1a380e52\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support:design:28.0.0] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\design-28.0.0.aar\4d0293499b065c95798300da1a380e52\AndroidManifest.xml:22:5-20
 MERGED from [com.android.support.constraint:constraint-layout:1.1.3] C:\Users\Jarvis\.gradle\caches\transforms-1\files-1.1\constraint-layout-1.1.3.aar\82f31f8bcbea63dddc4f0f9165e21186\AndroidManifest.xml:9:5-20
@@ -102,6 +102,14 @@ ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\Andro
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:24:13-36
 	android:name
 		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:22:13-42
+service#com.example.android.firstproject.NotificationIntentService
+ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:25:9-28:47
+	android:enabled
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:27:13-35
+	android:exported
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:28:13-36
+	android:name
+		ADDED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml:26:13-54
 uses-sdk
 INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\Jarvis\AndroidStudioProjects\FirstProject\app\src\main\AndroidManifest.xml

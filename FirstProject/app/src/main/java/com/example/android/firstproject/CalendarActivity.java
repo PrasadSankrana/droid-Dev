@@ -50,7 +50,6 @@ public class CalendarActivity extends AppCompatActivity implements View.OnClickL
            Calendar c = Calendar.getInstance();
            c.setTimeInMillis(sMilliSeconds);
            sDate = c.get(Calendar.DAY_OF_MONTH) + "-" + (c.get(Calendar.MONTH)+1) + "-" + c.get(Calendar.YEAR);
-
            /* Passing selected date of the calendar to the MainActivity */
         startActivity(new Intent(getApplicationContext(),MainActivity.class).putExtra(EXTRA_FirstActivity_Date,sDate));
            Log.i("Activity","FirstActivity_Date :"+sDate+" passed to Intent");

@@ -23,26 +23,30 @@ import java.util.Calendar;
 import java.util.Date;
 
 
+
+
 public class MainActivity extends AppCompatActivity implements View.OnClickListener
 {
 
     ImageButton datePicker,timePicker;
     EditText dateInput,timeInput;
-    Button submit,setAlarm,cancelAlarm,snoozeAlarm;
+    Button submit,snoozeAlarm;
+    static  Button setAlarm,cancelAlarm;
     String alarmTime=null;
     long  milliseconds=0; /* alarmTime in milliseconds to set alarmManager */
     private int mYear,mMonth,mDay,mHour,mMinute; /* To store current time from calendar */
     private int TmYear,TmMonth,TmDay,TmHour,TmMinute; /* To store time input */
 
     private AlarmManager alarmManager = null;
-    private PendingIntent pendingIntent = null;
-    Intent intent=null;
+    public  PendingIntent pendingIntent = null;
+    public  static  Context c = null;
+   public static Intent intent=null;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
-
+          c = getApplicationContext();
         /* Bind buttons in this.Activity.xml file using Resource class  */
         datePicker = (ImageButton)findViewById(R.id.btn_date);
         timePicker = (ImageButton)findViewById(R.id.btn_time);
@@ -86,7 +90,7 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                      milliseconds = getMillisecondsFromDateTime(alarmTime,"dd-MM-yyyy HH:mm",null);
                     if(milliseconds>System.currentTimeMillis())
                     {
-                        alarmManager.set(AlarmManager.RTC_WAKEUP, milliseconds, pendingIntent);
+                        alarmManager.set(AlarmManager.RTC_WAKEUP, milliseconds,pendingIntent);
                         displayToast(MainActivity.this,"Alarm set for "+alarmTime,Toast.LENGTH_LONG);
                         setAlarm.setEnabled(false);
                         cancelAlarm.setEnabled(true);
@@ -110,10 +114,12 @@ public class MainActivity extends AppCompatActivity implements View.OnClickListe
                    // pendingIntent = PendingIntent.getActivity(MainActivity.this,
                     //        234324243, intent, PendingIntent.FLAG_CANCEL_CURRENT);
                   //  pendingIntent.cancel();
+                    AlarmReciever.stopRingtone();
                     alarmManager.cancel(pendingIntent);
                     pendingIntent.cancel();
                     cancelAlarm.setEnabled(false);
                     setAlarm.setEnabled(true);
+                    NotificationIntentService.nmr.cancel(14);
                     displayToast(MainActivity.this,"Alarm during: "+alarmTime+" is cancelled",Toast.LENGTH_LONG);
                 }
             }
